@@ -4,8 +4,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
@@ -100,7 +98,7 @@ a {
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #f59e31;
 }
 
 .white-text {
@@ -120,7 +118,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: steelblue;
 }
 
 .flex-box {
@@ -150,20 +148,10 @@ ul {
 
 img {
   padding: 10px;
+  height:auto;
+  width:100%;
 }
 
-
-/* Bar chart stuff */
-.chart div {
-  font: 10px sans-serif;
-  background-color: #4A4A4A;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  height: 12px;
-  color: white;
-  display: inline-block;
-}
 
 span {
   padding: 5px;
@@ -217,3 +205,41 @@ span {
     display: block;
   }
 }
+
+/* bar chart with d3.js and SVG */
+.chart {
+    /*margin-left: 5%; */
+    width: 95%;
+    height: auto;
+}
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+.bar text {
+    fill: white;
+    font: 16px sans-serif;
+    test-anchor: end;
+}
+
+.axis text {
+    font: 16px sans-serif;
+    fill: orange;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #ff0038;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+

@@ -1,0 +1,7 @@
+[
+    {"skill": "HTML", "level": 0.40},
+    {"skill": "CSS", "level": 0.37},
+    {"skill": "Vanilla JS", "level": 0.52},
+    {"skill": "jQuery", "level": 0.50},
+    {"skill": "d3.js", "level": 0.20}
+]
