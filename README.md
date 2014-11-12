@@ -1,2 +1,2 @@
-udresume
+George Li resume
 ========
