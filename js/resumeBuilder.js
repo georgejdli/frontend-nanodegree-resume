@@ -43,9 +43,17 @@ var model = {
             "title": "Portfolio",
             "dates": 2014,
             "description": "I made this portfolio based on a design mock-up to showcase my featured work. " +
-            "I learned a lot about HTML and CSS in the process.",
-            "images": ["images/portfolio.png"],
+                "I learned a lot about HTML and CSS in the process.",
+            "images": ["images/portfolio.jpg"],
             "url": "https://github.com/georgejdli/portfolio"
+        },
+        {
+            "title": "Resume",
+            "dates": 2014,
+            "description": "You're looking at it!" +
+                "Resume page built with HTML, CSS and Javascript. I learned how to manipulate data types, build loops, and create functions in JS. I also learned how to use jQuery DOM manipulation build my resume when a user opens the website.",
+            "images": ["images/resume.jpg"],
+            "url": "https://github.com/georgejdli/frontend-nanodegree-resume/tree/gh-pages"
         }
     ],
     //education contains an array of schools. Each school object in schools contains a letter,
