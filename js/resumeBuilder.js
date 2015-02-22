@@ -59,7 +59,7 @@ var model = {
             "title": "Arcade Game",
             "dates": 2014,
             "description": "Clone of the classic arcade game Frogger. I learned how to use Object Oriented Javascript to model game entities and effectively reuse code.",
-            "images": ["images/aracde.jpg"],
+            "images": ["images/arcade.jpg"],
             "url": "https://github.com/georgejdli/frontend-nanodegree-arcade-game"
         }
     ],
