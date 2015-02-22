@@ -54,6 +54,13 @@ var model = {
                 "Resume page built with HTML, CSS and Javascript. I learned how to manipulate data types, build loops, and create functions in JS. I also learned how to use jQuery DOM manipulation build my resume when a user opens the website.",
             "images": ["images/resume.jpg"],
             "url": "https://github.com/georgejdli/frontend-nanodegree-resume/tree/gh-pages"
+        },
+        {
+            "title": "Arcade Game",
+            "dates": 2014,
+            "description": "Clone of the classic arcade game Frogger. I learned how to use Object Oriented Javascript to model game entities and effectively reuse code.",
+            "images": ["images/aracde.jpg"],
+            "url": "https://github.com/georgejdli/frontend-nanodegree-arcade-game"
         }
     ],
     //education contains an array of schools. Each school object in schools contains a letter,
