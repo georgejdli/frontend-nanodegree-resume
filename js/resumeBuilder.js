@@ -61,6 +61,13 @@ var model = {
             "description": "Clone of the classic arcade game Frogger. I learned how to use Object Oriented Javascript to model game entities and effectively reuse code.",
             "images": ["images/arcade.jpg"],
             "url": "https://github.com/georgejdli/frontend-nanodegree-arcade-game"
+        },
+        {
+            "title": "Website Optimization",
+            "dates": 2015,
+            "description": "Identified and fixed optimization- and performance related issues on a provided website. I learned how to optimize the Critical Rendering Path, JS loops, and render and paint events. I also learned how to use gulp.js to automate some of these optimizations.",
+            "images": ["images/pizza.jpg"],
+            "url": "https://github.com/georgejdli/frontend-nanodegree-mobile-portfolio/tree/gh-pages"
         }
     ],
     //education contains an array of schools. Each school object in schools contains a letter,
